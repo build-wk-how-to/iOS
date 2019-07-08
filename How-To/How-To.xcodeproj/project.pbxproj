@@ -13,6 +13,9 @@
 		846E237422D3C61D0090FFAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846E237222D3C61D0090FFAB /* LaunchScreen.storyboard */; };
 		846E238322D3F5130090FFAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238222D3F5130090FFAB /* HomeViewController.swift */; };
 		846E238522D3F5F90090FFAB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238422D3F5F90090FFAB /* SearchViewController.swift */; };
+		846E238722D404D40090FFAB /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238622D404D40090FFAB /* SearchResultsViewController.swift */; };
+		846E238922D4072B0090FFAB /* GuideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238822D4072B0090FFAB /* GuideCollectionViewCell.swift */; };
+		846E238B22D4076A0090FFAB /* GuideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238A22D4076A0090FFAB /* GuideTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		846E237522D3C61D0090FFAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		846E238222D3F5130090FFAB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		846E238422D3F5F90090FFAB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		846E238622D404D40090FFAB /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		846E238822D4072B0090FFAB /* GuideCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCollectionViewCell.swift; sourceTree = "<group>"; };
+		846E238A22D4076A0090FFAB /* GuideTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,7 @@
 			children = (
 				846E238222D3F5130090FFAB /* HomeViewController.swift */,
 				846E238422D3F5F90090FFAB /* SearchViewController.swift */,
+				846E238622D404D40090FFAB /* SearchResultsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -95,6 +102,8 @@
 		846E237E22D3D1C40090FFAB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				846E238822D4072B0090FFAB /* GuideCollectionViewCell.swift */,
+				846E238A22D4076A0090FFAB /* GuideTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,7 +203,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846E238B22D4076A0090FFAB /* GuideTableViewCell.swift in Sources */,
 				846E238522D3F5F90090FFAB /* SearchViewController.swift in Sources */,
+				846E238922D4072B0090FFAB /* GuideCollectionViewCell.swift in Sources */,
+				846E238722D404D40090FFAB /* SearchResultsViewController.swift in Sources */,
 				846E236A22D3C61A0090FFAB /* AppDelegate.swift in Sources */,
 				846E238322D3F5130090FFAB /* HomeViewController.swift in Sources */,
 			);
