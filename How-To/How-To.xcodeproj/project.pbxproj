@@ -17,6 +17,7 @@
 		846E238922D4072B0090FFAB /* GuideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238822D4072B0090FFAB /* GuideCollectionViewCell.swift */; };
 		846E238B22D4076A0090FFAB /* GuideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238A22D4076A0090FFAB /* GuideTableViewCell.swift */; };
 		846E238D22D416590090FFAB /* StarCustomControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238C22D416590090FFAB /* StarCustomControl.swift */; };
+		846E238F22D52F0D0090FFAB /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238E22D52F0D0090FFAB /* CreateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		846E238822D4072B0090FFAB /* GuideCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCollectionViewCell.swift; sourceTree = "<group>"; };
 		846E238A22D4076A0090FFAB /* GuideTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideTableViewCell.swift; sourceTree = "<group>"; };
 		846E238C22D416590090FFAB /* StarCustomControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCustomControl.swift; sourceTree = "<group>"; };
+		846E238E22D52F0D0090FFAB /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				846E238222D3F5130090FFAB /* HomeViewController.swift */,
 				846E238422D3F5F90090FFAB /* SearchViewController.swift */,
 				846E238622D404D40090FFAB /* SearchResultsViewController.swift */,
+				846E238E22D52F0D0090FFAB /* CreateViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -206,6 +209,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846E238F22D52F0D0090FFAB /* CreateViewController.swift in Sources */,
 				846E238B22D4076A0090FFAB /* GuideTableViewCell.swift in Sources */,
 				846E238522D3F5F90090FFAB /* SearchViewController.swift in Sources */,
 				846E238922D4072B0090FFAB /* GuideCollectionViewCell.swift in Sources */,
