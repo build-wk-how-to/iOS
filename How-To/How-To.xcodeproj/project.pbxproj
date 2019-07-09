@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		846E236A22D3C61A0090FFAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E236922D3C61A0090FFAB /* AppDelegate.swift */; };
-		846E236C22D3C61A0090FFAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E236B22D3C61A0090FFAB /* ViewController.swift */; };
 		846E236F22D3C61A0090FFAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846E236D22D3C61A0090FFAB /* Main.storyboard */; };
 		846E237122D3C61D0090FFAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 846E237022D3C61D0090FFAB /* Assets.xcassets */; };
 		846E237422D3C61D0090FFAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 846E237222D3C61D0090FFAB /* LaunchScreen.storyboard */; };
+		846E238322D3F5130090FFAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238222D3F5130090FFAB /* HomeViewController.swift */; };
+		846E238522D3F5F90090FFAB /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238422D3F5F90090FFAB /* SearchViewController.swift */; };
+		846E238722D404D40090FFAB /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238622D404D40090FFAB /* SearchResultsViewController.swift */; };
+		846E238922D4072B0090FFAB /* GuideCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238822D4072B0090FFAB /* GuideCollectionViewCell.swift */; };
+		846E238B22D4076A0090FFAB /* GuideTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238A22D4076A0090FFAB /* GuideTableViewCell.swift */; };
+		846E238D22D416590090FFAB /* StarCustomControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238C22D416590090FFAB /* StarCustomControl.swift */; };
+		846E238F22D52F0D0090FFAB /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E238E22D52F0D0090FFAB /* CreateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		846E236622D3C61A0090FFAB /* How-To.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How-To.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		846E236922D3C61A0090FFAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		846E236B22D3C61A0090FFAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		846E236E22D3C61A0090FFAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		846E237022D3C61D0090FFAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846E237322D3C61D0090FFAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		846E237522D3C61D0090FFAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		846E238222D3F5130090FFAB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		846E238422D3F5F90090FFAB /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		846E238622D404D40090FFAB /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
+		846E238822D4072B0090FFAB /* GuideCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideCollectionViewCell.swift; sourceTree = "<group>"; };
+		846E238A22D4076A0090FFAB /* GuideTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideTableViewCell.swift; sourceTree = "<group>"; };
+		846E238C22D416590090FFAB /* StarCustomControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarCustomControl.swift; sourceTree = "<group>"; };
+		846E238E22D52F0D0090FFAB /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +66,76 @@
 		846E236822D3C61A0090FFAB /* How-To */ = {
 			isa = PBXGroup;
 			children = (
-				846E236922D3C61A0090FFAB /* AppDelegate.swift */,
-				846E236B22D3C61A0090FFAB /* ViewController.swift */,
-				846E236D22D3C61A0090FFAB /* Main.storyboard */,
-				846E237022D3C61D0090FFAB /* Assets.xcassets */,
-				846E237222D3C61D0090FFAB /* LaunchScreen.storyboard */,
-				846E237522D3C61D0090FFAB /* Info.plist */,
+				846E237C22D3D1930090FFAB /* Storyboards */,
+				846E238022D3D1D30090FFAB /* Model */,
+				846E238122D3D1DD0090FFAB /* Networking */,
+				846E237E22D3D1C40090FFAB /* Views */,
+				846E237D22D3D1AC0090FFAB /* View Controllers */,
+				846E237B22D3D1870090FFAB /* Helpers */,
+				846E237F22D3D1CA0090FFAB /* Resources */,
 			);
 			path = "How-To";
+			sourceTree = "<group>";
+		};
+		846E237B22D3D1870090FFAB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				846E238C22D416590090FFAB /* StarCustomControl.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		846E237C22D3D1930090FFAB /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				846E236D22D3C61A0090FFAB /* Main.storyboard */,
+				846E237222D3C61D0090FFAB /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		846E237D22D3D1AC0090FFAB /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				846E238222D3F5130090FFAB /* HomeViewController.swift */,
+				846E238422D3F5F90090FFAB /* SearchViewController.swift */,
+				846E238622D404D40090FFAB /* SearchResultsViewController.swift */,
+				846E238E22D52F0D0090FFAB /* CreateViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		846E237E22D3D1C40090FFAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				846E238822D4072B0090FFAB /* GuideCollectionViewCell.swift */,
+				846E238A22D4076A0090FFAB /* GuideTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		846E237F22D3D1CA0090FFAB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				846E236922D3C61A0090FFAB /* AppDelegate.swift */,
+				846E237022D3C61D0090FFAB /* Assets.xcassets */,
+				846E237522D3C61D0090FFAB /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		846E238022D3D1D30090FFAB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		846E238122D3D1DD0090FFAB /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +209,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				846E236C22D3C61A0090FFAB /* ViewController.swift in Sources */,
+				846E238F22D52F0D0090FFAB /* CreateViewController.swift in Sources */,
+				846E238B22D4076A0090FFAB /* GuideTableViewCell.swift in Sources */,
+				846E238522D3F5F90090FFAB /* SearchViewController.swift in Sources */,
+				846E238922D4072B0090FFAB /* GuideCollectionViewCell.swift in Sources */,
+				846E238722D404D40090FFAB /* SearchResultsViewController.swift in Sources */,
 				846E236A22D3C61A0090FFAB /* AppDelegate.swift in Sources */,
+				846E238322D3F5130090FFAB /* HomeViewController.swift in Sources */,
+				846E238D22D416590090FFAB /* StarCustomControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,7 +364,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BH59G2VDQ6;
-				INFOPLIST_FILE = "How-To/Info.plist";
+				INFOPLIST_FILE = "How-To/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +382,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = BH59G2VDQ6;
-				INFOPLIST_FILE = "How-To/Info.plist";
+				INFOPLIST_FILE = "How-To/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
