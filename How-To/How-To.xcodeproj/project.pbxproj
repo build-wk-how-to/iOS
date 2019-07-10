@@ -24,6 +24,8 @@
 		846E239722D551BC0090FFAB /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E239622D551BC0090FFAB /* LoginController.swift */; };
 		846E239B22D565F00090FFAB /* GuideController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E239A22D565F00090FFAB /* GuideController.swift */; };
 		846E239D22D566010090FFAB /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E239C22D566010090FFAB /* CategoryController.swift */; };
+		846E239F22D64AAF0090FFAB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E239E22D64AAF0090FFAB /* LoginViewController.swift */; };
+		846E23A122D64ABF0090FFAB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E23A022D64ABF0090FFAB /* SignUpViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		846E239622D551BC0090FFAB /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		846E239A22D565F00090FFAB /* GuideController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideController.swift; sourceTree = "<group>"; };
 		846E239C22D566010090FFAB /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
+		846E239E22D64AAF0090FFAB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		846E23A022D64ABF0090FFAB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,8 @@
 		846E237D22D3D1AC0090FFAB /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				846E239E22D64AAF0090FFAB /* LoginViewController.swift */,
+				846E23A022D64ABF0090FFAB /* SignUpViewController.swift */,
 				846E238222D3F5130090FFAB /* HomeViewController.swift */,
 				846E238422D3F5F90090FFAB /* SearchViewController.swift */,
 				846E238622D404D40090FFAB /* SearchResultsViewController.swift */,
@@ -230,12 +236,14 @@
 				846E238F22D52F0D0090FFAB /* CreateViewController.swift in Sources */,
 				846E239722D551BC0090FFAB /* LoginController.swift in Sources */,
 				846E238B22D4076A0090FFAB /* GuideTableViewCell.swift in Sources */,
+				846E239F22D64AAF0090FFAB /* LoginViewController.swift in Sources */,
 				846E239D22D566010090FFAB /* CategoryController.swift in Sources */,
 				846E239322D54DC60090FFAB /* Guide.swift in Sources */,
 				846E238522D3F5F90090FFAB /* SearchViewController.swift in Sources */,
 				846E238922D4072B0090FFAB /* GuideCollectionViewCell.swift in Sources */,
 				846E238722D404D40090FFAB /* SearchResultsViewController.swift in Sources */,
 				846E239122D54D2A0090FFAB /* User.swift in Sources */,
+				846E23A122D64ABF0090FFAB /* SignUpViewController.swift in Sources */,
 				846E236A22D3C61A0090FFAB /* AppDelegate.swift in Sources */,
 				846E238322D3F5130090FFAB /* HomeViewController.swift in Sources */,
 				846E238D22D416590090FFAB /* StarCustomControl.swift in Sources */,
