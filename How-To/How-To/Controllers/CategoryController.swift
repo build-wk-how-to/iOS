@@ -11,7 +11,7 @@ import Foundation
 class CategoryController {
     
     static let shared = CategoryController()
-    private let baseURL = URL(string: "https://bw-howto.netlify.com/api/")!
+    private let baseURL = URL(string: "https://bwhowto.herokuapp.com/api/")!
     
     var userID: Int?
     var token: String?

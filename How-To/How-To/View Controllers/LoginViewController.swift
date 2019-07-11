@@ -28,17 +28,22 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
         if let username = usernameOutlet.text, !username.isEmpty,
             let password = passwordOutlet.text, !password.isEmpty {
             
-            let user = User(username: username, password: password, userType: "Content")
+            let user = User(username: username, password: password, userType: UserType.create.rawValue)
             LoginController.shared.login(with: user) { (token) in
                 
                 if token != nil {
                     // Fetch Guides
-                    // GuideController.shared.fetchGuides(completion: { (guides) in
-                    //    print(guides)
-                    // })
+                    GuideController.shared.fetchGuides(completion: { (guides) in
+                        print(guides)
+                     })
+                    
                     DispatchQueue.main.async {
-                        self.dismiss(animated: true, completion: nil)
+                        self.performSegue(withIdentifier: "loginSegue", sender: sender)
+                        //self.dismiss(animated: true, completion: nil)
                     }
+                    
+                    
+                    
                 } else {
                     self.displayAlertMessage(userMessage: "Username and Password do not match")
                 }

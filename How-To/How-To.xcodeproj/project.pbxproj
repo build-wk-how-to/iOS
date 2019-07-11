@@ -26,6 +26,7 @@
 		846E239D22D566010090FFAB /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E239C22D566010090FFAB /* CategoryController.swift */; };
 		846E239F22D64AAF0090FFAB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E239E22D64AAF0090FFAB /* LoginViewController.swift */; };
 		846E23A122D64ABF0090FFAB /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E23A022D64ABF0090FFAB /* SignUpViewController.swift */; };
+		846E23A322D67F430090FFAB /* UserType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E23A222D67F420090FFAB /* UserType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		846E239C22D566010090FFAB /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
 		846E239E22D64AAF0090FFAB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		846E23A022D64ABF0090FFAB /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		846E23A222D67F420090FFAB /* UserType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				846E238C22D416590090FFAB /* StarCustomControl.swift */,
+				846E23A222D67F420090FFAB /* UserType.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				846E238322D3F5130090FFAB /* HomeViewController.swift in Sources */,
 				846E238D22D416590090FFAB /* StarCustomControl.swift in Sources */,
 				846E239B22D565F00090FFAB /* GuideController.swift in Sources */,
+				846E23A322D67F430090FFAB /* UserType.swift in Sources */,
 				846E239522D54E4F0090FFAB /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,7 +11,7 @@ import Foundation
 class LoginController {
     
     static let shared = LoginController()
-    private let baseURL = URL(string: "https://bw-howto.netlify.com/api/")!
+    private let baseURL = URL(string: "https://bwhowto.herokuapp.com/api/")!
     var userID: Int?
     var token: String?
     
@@ -152,7 +152,7 @@ class LoginController {
                         self.token = token
                         completion(token)
                     }
-                    if let id = json["userID"] as? Int {
+                    if let id = json["id"] as? Int {
                         GuideController.shared.userID = id
                         CategoryController.shared.userID = id
                         self.userID = id
